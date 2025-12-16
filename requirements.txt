@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+mujoco
+pinocchio
+# ROS2 (rclpy, std_msgs, sensor_msgs) should be installed via ROS 2 distribution (apt/rosdep)
