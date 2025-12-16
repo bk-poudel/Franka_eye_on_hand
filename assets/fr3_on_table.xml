@@ -24,7 +24,8 @@
         </body>
         <include file="./table_body.xml"/>
         <include file="./fr3_on_table_body.xml"/>
-         <body name="redblock" pos="0.075 -0.13 1">
+         <body name="redblock" pos="0.075 -0.13 0.85">
+            <joint name="redblock_joint" type="free"/>
             <inertial mass="0.01" pos="0 0 0" fullinertia="0.01 0.01 0.01 0 0 0"/>
             <geom size="0.03 0.03 0.05" type="box" rgba="1 0.3412 0.349 1" friction="0.95 0.3 0.1" condim="4"/>
         </body>
